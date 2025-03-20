@@ -1,0 +1,16 @@
+{
+  "name": "tradingview-bybit-bridge",
+  "version": "1.0.0",
+  "description": "Bridge between TradingView alerts and Bybit trading",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "crypto": "^1.0.1"
+  }
+}
